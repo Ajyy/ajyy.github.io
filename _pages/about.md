@@ -72,10 +72,11 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 - *2016.09 - 2020.06*, B.Eng, Southern University of Science and Technology.
 - *2018.09 - 2019.05*, Visiting Student, the University of Edinburgh.
 
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
-
 # 💻 Internships
 - *2021.06 - 2022.04*, [MSRA NLC group](https://www.microsoft.com/en-us/research/group/natural-language-computing/), Beijing, mentored by [Dr. Long Zhou](https://long-zhou.github.io/) and [Dr. Shujie Liu](https://www.microsoft.com/en-us/research/people/shujliu/).
 - *2019.06 - 2019.08*, Tencent, Shenzhen.
+
+# 📚 Teaching
+- DDA3020 Machine Learning, Spring 2023
+- CSC3100 Data Structures, Fall 2022
+
