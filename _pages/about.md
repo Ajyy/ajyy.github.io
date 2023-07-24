@@ -41,7 +41,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 **2023**
 - [CoBERT: Self-Supervised Speech Representation Learning Through Code Representation Learning](https://arxiv.org/abs/2210.04062), Chutong Meng, **Junyi Ao**, Tom Ko, Mingxuan Wang, Haizhou Li, **INTERSPEECH 2023** \| [![](https://img.shields.io/github/stars/mct10/CoBERT?style=social&label=Code+Stars)](https://github.com/mct10/CoBERT)
 
-- Self-Supervised Acoustic Word Embedding Learning via Correspondence Transformer Encoder, Jingru Lin, Xianghu Yue, **Junyi Ao**, Haizhou Li, **INTERSPEECH 2023**
+- [Self-Supervised Acoustic Word Embedding Learning via Correspondence Transformer Encoder](https://arxiv.org/pdf/2307.09871.pdf), Jingru Lin, Xianghu Yue, **Junyi Ao**, Haizhou Li, **INTERSPEECH 2023**
 
 - [token2vec: A Joint Self-Supervised Pre-training Framework Using Unpaired Speech and Text](https://arxiv.org/abs/2210.16755), Xianghu Yue, **Junyi Ao**, Xiaoxue Gao, Haizhou Li, **ICASSP 2023**
 
