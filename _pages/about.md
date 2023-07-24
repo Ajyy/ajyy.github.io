@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am a PhD student at the School of Data Science, the Chinese University of Hong Kong (Shenzhen), supervised by [Prof. Haizhou Li](https://colips.org/~eleliha/). My research interests include automatic speech recognition, speech translation and speech pre-training. I have published more than 10 papers at the top international AI conferences such as ICASSP, INTERSPEECH, ACL and EMNLP. <a href='https://scholar.google.com/citations?user=eUiG0O0AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fajyy%2Fajyy.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> 
+Hi, I am a PhD student at the School of Data Science, the Chinese University of Hong Kong (Shenzhen), supervised by [Prof. Haizhou Li](https://colips.org/~eleliha/). My research interests include automatic speech recognition, speech translation and speech pre-training. I have published several papers at the top international AI conferences such as ICASSP, INTERSPEECH, ACL and EMNLP. <a href='https://scholar.google.com/citations?user=eUiG0O0AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fajyy%2Fajyy.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> 
 
 
 <!-- # 🔥 News
