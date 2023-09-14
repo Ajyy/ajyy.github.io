@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.66.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/custom.css">
+<link rel="alternate" href="index.xml" type="application/rss+xml" title="Speech Research">
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+<title>USED: Universal Speaker Extraction and Diarization</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		
+			
+		
+		
+	</header>
+
+
+	<main role="main">
+		<article itemscope itemtype="https://schema.org/BlogPosting">
+            <h1 class="entry-title" itemprop="headline">USED: Universal Speaker Extraction and Diarization</h1>
+			
+			<section itemprop="entry-text">
+				<br>
+<p>ArXiv: <a href="XXX">To be uploaded</a></p>
+<h2 id="authors">Authors</h2>
+<ul>
+<li>Junyi Ao (The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), China)
+<li>Mehmet Sinan Yildirim (Department of ECE, National University of Singapore, Singapore)
+<li>Meng Ge (Department of ECE, National University of Singapore, Singapore)
+<li>Shuai Wang (Shenzhen Research Institute of Big Data, Shenzhen, China)
+<li>Ruijie Tao (Department of ECE, National University of Singapore, Singapore)
+<li>Yanmin Qian (Shanghai Jiao Tong University, Shanghai, China)
+<li>Liqun Deng (Huawei Noah's Ark Lab)
+<li>Longshuai Xiao (AI and All-scenario Intelligence Development, Huawei)
+<li>Haizhou Li (The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), China)
+</ul>
+<p>Contact Email: <a href="mailto:junyiao1@link.cuhk.edu.cn">junyiao1@link.cuhk.edu.cn</a></li></p>
+<h2 id="abstract">Abstract</h2>
+<p>Speaker extraction and diarization are two crucial enabling techniques for speech applications.
+  Speaker extraction aims to extract a target speaker's voice from a multi-talk mixture, while speaker diarization demarcates speech segments by speaker, identifying `who spoke when'.
+  The previous studies have typically treated the two tasks independently. However, the two tasks share a similar objective, that is to disentangle the speakers in the spectral domain for the former but in the temporal domain for the latter.  
+  It is logical to believe that the speaker turns obtained from speaker diarization can benefit speaker extraction, while the extracted speech offers more accurate speaker turns than the mixture speech.
+  In this paper, we propose a unified framework called Universal Speaker Extraction and Diarization (USED).
+  We extend the existing speaker extraction model to simultaneously extract the waveforms of all speakers.
+  We also employ a scenario-aware differentiated loss function to address the problem of sparsely overlapped speech in real-world conversations.
+  We show that the USED model significantly outperforms the baselines for both speaker extraction and diarization tasks, in both highly overlapped and sparsely overlapped scenarios.</p>
+<h2 id="audio-samples">Audio Samples</h2>
+<!-- <p>All of the audio samples use Parallel WaveGAN (PWG) as vocoder. For all audio samples, the background noise of LJSpeech is reduced using spectral subtraction.</p> -->
+<h3 id="noisy-libri2mix-min-mode">Noisy Libri2Mix (Min Mode)</h3>
+<!-- <p><em>Were the leaders in this luckless change, though our own Baskerville, who was at work some years before them, went much on the same lines.</em></p> -->
+<h4 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h4>
+<table><thead>
+  <tr>
+    <th style="text-align: center">Mixture Speech</th>
+  </tr></thead><tbody>
+  <tr>
+  <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_mixture.wav" autoplay/></audio></td>
+  </tr>
+  </tbody></table>
+  <table><thead>
+    <tr>
+    <th style="text-align: center">Ground Truth of Speaker 1</th>
+    <th style="text-align: center">Ground Truth of Speaker 2</th>
+  </tr></thead><tbody>
+  </tr>
+  <tr>
+  <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_gt_sp1.wav" autoplay/></audio></td>
+  <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_gt_sp2.wav" autoplay/></audio></td>
+  </tbody></table>
+<h4 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h4>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 13.58 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 1.00 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_spex_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_spex_sp2.wav" autoplay/></audio></td>
+</tbody></table>
+<h4 id="noisy-libri2mix-min-mode">USED</h4>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 13.94 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 13.00 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_used_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_used_sp2.wav" autoplay/></audio></td>
+</tbody></table>
+<h3 id="noisy-libri3mix-min-mode">Noisy Libri3Mix (Min Mode)</h3>
+<h4 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h4>
+<table><thead>
+<tr>
+  <th style="text-align: center">Mixture Speech</th>
+</tr></thead><tbody>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_mixture.wav" autoplay/></audio></td>
+</tr>
+</tbody></table>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Ground Truth of Speaker 1</th>
+  <th style="text-align: center">Ground Truth of Speaker 2</th>
+  <th style="text-align: center">Ground Truth of Speaker 3</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_gt_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_gt_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_gt_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<h4 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h4>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 10.94 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 13.35 dB)</th>
+  <th style="text-align: center">Speaker 3 (SI-SDRi = 15.14 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_spex_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_spex_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_spex_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<h4 id="noisy-libri2mix-min-mode">USED</h4>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 16.60 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 13.77 dB)</th>
+  <th style="text-align: center">Speaker 3 (SI-SDRi = 16.49 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_used_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_used_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_used_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<h3 id="noisy-libri2mix-min-mode">Noisy Libri2Mix (Max Mode)</h3>
+<!-- <p><em>Were the leaders in this luckless change, though our own Baskerville, who was at work some years before them, went much on the same lines.</em></p> -->
+<h4 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h4>
+<table><thead>
+  <tr>
+    <th style="text-align: center">Mixture Speech</th>
+  </tr></thead><tbody>
+  <tr>
+  <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_mixture.wav" autoplay/></audio></td>
+  </tr>
+  </tbody></table>
+  <table><thead>
+    <tr>
+    <th style="text-align: center">Ground Truth of Speaker 1</th>
+    <th style="text-align: center">Ground Truth of Speaker 2</th>
+  </tr></thead><tbody>
+  </tr>
+  <tr>
+  <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_gt_sp1.wav" autoplay/></audio></td>
+  <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_gt_sp2.wav" autoplay/></audio></td>
+  </tbody></table>
+<h4 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h4>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 10.77 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 8.86 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_spex_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_spex_sp2.wav" autoplay/></audio></td>
+</tbody></table>
+<h4 id="noisy-libri2mix-min-mode">USED</h4>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 11.30 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 16.22 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_used_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_used_sp2.wav" autoplay/></audio></td>
+</tbody></table>
+<h3 id="noisy-libri3mix-min-mode">Noisy Libri3Mix (Max Mode)</h3>
+<h4 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h4>
+<table><thead>
+<tr>
+  <th style="text-align: center">Mixture Speech</th>
+</tr></thead><tbody>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_mixture.wav" autoplay/></audio></td>
+</tr>
+</tbody></table>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Ground Truth of Speaker 1</th>
+  <th style="text-align: center">Ground Truth of Speaker 2</th>
+  <th style="text-align: center">Ground Truth of Speaker 3</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_gt_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_gt_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_gt_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<h4 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h4>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 22.17 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 5.97 dB)</th>
+  <th style="text-align: center">Speaker 3 (SI-SDRi = 15.99 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_spex_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_spex_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_spex_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<h4 id="noisy-libri2mix-min-mode">USED</h4>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 23.86 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 12.38 dB)</th>
+  <th style="text-align: center">Speaker 3 (SI-SDRi = 16.91 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_used_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_used_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_used_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<h3 id="noisy-sparselibri3mix">Noisy SparseLibri3Mix</h3>
+<h4 id="overlap-ratio-0">Overlap Ratio 0</h4>
+<!-- <p><em>Were the leaders in this luckless change, though our own Baskerville, who was at work some years before them, went much on the same lines.</em></p> -->
+<h5 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h5>
+<table><thead>
+<tr>
+  <th style="text-align: center">Mixture Speech</th>
+</tr></thead><tbody>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_0_mixture.wav" autoplay/></audio></td>
+</tr>
+</tbody></table>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Ground Truth of Speaker 1</th>
+  <th style="text-align: center">Ground Truth of Speaker 2</th>
+  <th style="text-align: center">Ground Truth of Speaker 3</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_0_gt_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_0_gt_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_0_gt_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/sparse_0_gt_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_0_gt_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_0_gt_sp3.png" width="310" height="310"></td>
+</tbody></table>
+<h5 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h5>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 22.19 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 11.86 dB)</th>
+  <th style="text-align: center">Speaker 3 (SI-SDRi = 6.33 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_0_spex_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_0_spex_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_0_spex_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/sparse_0_spex_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_0_spex_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_0_spex_sp3.png" width="310" height="310"></td>
+</tbody></table>
+<h5 id="noisy-libri2mix-min-mode">USED</h5>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 22.71 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 15.62 dB)</th>
+  <th style="text-align: center">Speaker 3 (SI-SDRi = 17.16 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_0_used_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_0_used_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_0_used_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/sparse_0_used_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_0_used_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_0_used_sp3.png" width="310" height="310"></td>
+</tbody></table>
+<h4 id="overlap-ratio-05">Overlap Ratio 0.4</h4>
+<h5 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h5>
+<table><thead>
+<tr>
+  <th style="text-align: center">Mixture Speech</th>
+</tr></thead><tbody>
+<tr>
+  <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_04_mixture.wav" autoplay/></audio></td>
+</tr>
+</tbody></table>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Ground Truth of Speaker 1</th>
+  <th style="text-align: center">Ground Truth of Speaker 2</th>
+  <th style="text-align: center">Ground Truth of Speaker 3</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_04_gt_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_04_gt_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_04_gt_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/sparse_04_gt_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_04_gt_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_04_gt_sp3.png" width="310" height="310"></td>
+</tbody></table>
+<h5 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h5>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 13.95 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 0.88 dB)</th>
+  <th style="text-align: center">Speaker 3 (SI-SDRi = 4.59 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_04_spex_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_04_spex_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_04_spex_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/sparse_04_spex_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_04_spex_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_04_spex_sp3.png" width="310" height="310"></td>
+</tbody></table>
+<h5 id="noisy-libri2mix-min-mode">USED</h5>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 20.13 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 12.27 dB)</th>
+  <th style="text-align: center">Speaker 3 (SI-SDRi = 13.12 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_04_used_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_04_used_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_04_used_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/sparse_04_used_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_04_used_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_04_used_sp3.png" width="310" height="310"></td>
+</tbody></table>
+<h4 id="overlap-ratio-1">Overlap Ratio 0.8</h4>
+<h5 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h5>
+<table><thead>
+<tr>
+  <th style="text-align: center">Mixture Speech</th>
+</tr></thead><tbody>
+<tr>
+  <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_08_mixture.wav" autoplay/></audio></td>
+</tr>
+</tbody></table>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Ground Truth of Speaker 1</th>
+  <th style="text-align: center">Ground Truth of Speaker 2</th>
+  <th style="text-align: center">Ground Truth of Speaker 3</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_08_gt_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_08_gt_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_08_gt_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/sparse_08_gt_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_08_gt_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_08_gt_sp3.png" width="310" height="310"></td>
+</tbody></table>
+<h5 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h5>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 13.58 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 0.94 dB)</th>
+  <th style="text-align: center">Speaker 3 (SI-SDRi = 6.59 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_08_spex_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_08_spex_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_08_spex_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/sparse_08_spex_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_08_spex_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_08_spex_sp3.png" width="310" height="310"></td>
+</tbody></table>
+<h5 id="noisy-libri2mix-min-mode">USED</h5>
+<table><thead>
+  <tr>
+  <th style="text-align: center">Speaker 1 (SI-SDRi = 18.28 dB)</th>
+  <th style="text-align: center">Speaker 2 (SI-SDRi = 11.92 dB)</th>
+  <th style="text-align: center">Speaker 3 (SI-SDRi = 13.25 dB)</th>
+</tr></thead><tbody>
+</tr>
+<tr>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_08_used_sp1.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_08_used_sp2.wav" autoplay/></audio></td>
+<td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/sparse_08_used_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/sparse_08_used_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_08_used_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/sparse_08_used_sp3.png" width="310" height="310"></td>
+</tbody></table>
+</p>
+<p><em>*This page is modified from <a href="https://speechresearch.github.io/fastspeech2/">https://speechresearch.github.io/fastspeech2/</a>.</em></p>
+			</section>
+		</article>
+	</main>
+
+
+	
+
+</div>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-139981676-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+         HTML: ["input/TeX","output/HTML-CSS"],
+         TeX: {
+                Macros: {
+                         bm: ["\\boldsymbol{#1}", 1],
+                         argmax: ["\\mathop{\\rm arg\\,max}\\limits"],
+                         argmin: ["\\mathop{\\rm arg\\,min}\\limits"]},
+                extensions: ["AMSmath.js","AMSsymbols.js"],
+                equationNumbers: { autoNumber: "AMS" } },
+         extensions: ["tex2jax.js"],
+         jax: ["input/TeX","output/HTML-CSS"],
+         tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                    processEscapes: true },
+         "HTML-CSS": { availableFonts: ["TeX"],
+                       linebreaks: { automatic: true } }
+     });
+ </script>
+
+ <script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+       tex2jax: {
+         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+       }
+     });
+ </script>
+
+ <script type="text/javascript" async
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+ </script>
+
+
+
+
+</body>
+</html>
