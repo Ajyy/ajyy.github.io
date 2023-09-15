@@ -54,8 +54,21 @@
   We extend the existing speaker extraction model to simultaneously extract the waveforms of all speakers.
   We also employ a scenario-aware differentiated loss function to address the problem of sparsely overlapped speech in real-world conversations.
   We show that the USED model significantly outperforms the baselines for both speaker extraction and diarization tasks, in both highly overlapped and sparsely overlapped scenarios.</p>
+<h2 id="abstract">Contents</h2>
+<b><a href="#1">1 Noisy LibriMix (Min Mode)</a></b><br>
+<a href="#1.1">1.1 Libri2Mix</a><br>
+<a href="#1.2">1.2 Libri3Mix</a><br>
+<b><a href="#2">2 Noisy LibriMix (Max Mode)</a></b><br>
+<a href="#2.1">2.1 Libri2Mix</a><br>
+<a href="#2.2">2.2 Libri3Mix</a><br>
+<b><a href="#3">3 Noisy SparseLibriMix</a></b><br>
+<a href="#3.1">3.1 Overlap Ratio 0</a><br>
+<a href="#3.2">3.2 Overlap Ratio 0.4</a><br>
+<a href="#3.3">3.3 Overlap Ratio 0.8</a><br>
 <h2 id="audio-samples">Audio Samples</h2>
 <!-- <p>All of the audio samples use Parallel WaveGAN (PWG) as vocoder. For all audio samples, the background noise of LJSpeech is reduced using spectral subtraction.</p> -->
+<p><span id="1" name="1"></span></p>
+<p><span id="1.1" name="1.1"></span></p>
 <h3 id="noisy-libri2mix-min-mode">Noisy Libri2Mix (Min Mode)</h3>
 <!-- <p><em>Were the leaders in this luckless change, though our own Baskerville, who was at work some years before them, went much on the same lines.</em></p> -->
 <h4 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h4>
@@ -77,6 +90,10 @@
   <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_gt_sp1.wav" autoplay/></audio></td>
   <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_gt_sp2.wav" autoplay/></audio></td>
   </tbody></table>
+  <tr>
+    <td style="text-align: center"><img src="../USED/figure/libri2mix_min_gt_sp1.png" width="310" height="310"></td>
+    <td style="text-align: center"><img src="../USED/figure/libri2mix_min_gt_sp2.png" width="310" height="310"></td>
+  </tbody></table>
 <h4 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h4>
 <table><thead>
   <tr>
@@ -87,6 +104,10 @@
 <tr>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_spex_sp1.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_spex_sp2.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/libri2mix_min_spex_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri2mix_min_spex_sp2.png" width="310" height="310"></td>
 </tbody></table>
 <h4 id="noisy-libri2mix-min-mode">USED</h4>
 <table><thead>
@@ -99,6 +120,11 @@
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_used_sp1.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_min_used_sp2.wav" autoplay/></audio></td>
 </tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/libri2mix_min_used_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri2mix_min_used_sp2.png" width="310" height="310"></td>
+</tbody></table>
+<p><span id="1.2" name="1.2"></span></p>
 <h3 id="noisy-libri3mix-min-mode">Noisy Libri3Mix (Min Mode)</h3>
 <h4 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h4>
 <table><thead>
@@ -121,6 +147,11 @@
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_gt_sp2.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_gt_sp3.wav" autoplay/></audio></td>
 </tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_min_gt_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_min_gt_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_min_gt_sp3.png" width="310" height="310"></td>
+</tbody></table>
 <h4 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h4>
 <table><thead>
   <tr>
@@ -133,6 +164,11 @@
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_spex_sp1.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_spex_sp2.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_spex_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_min_spex_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_min_spex_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_min_spex_sp3.png" width="310" height="310"></td>
 </tbody></table>
 <h4 id="noisy-libri2mix-min-mode">USED</h4>
 <table><thead>
@@ -147,6 +183,13 @@
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_used_sp2.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_min_used_sp3.wav" autoplay/></audio></td>
 </tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_min_used_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_min_used_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_min_used_sp3.png" width="310" height="310"></td>
+</tbody></table>
+<p><span id="2" name="2"></span></p>
+<p><span id="2.1" name="2.1"></span></p>
 <h3 id="noisy-libri2mix-min-mode">Noisy Libri2Mix (Max Mode)</h3>
 <!-- <p><em>Were the leaders in this luckless change, though our own Baskerville, who was at work some years before them, went much on the same lines.</em></p> -->
 <h4 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h4>
@@ -168,6 +211,10 @@
   <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_gt_sp1.wav" autoplay/></audio></td>
   <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_gt_sp2.wav" autoplay/></audio></td>
   </tbody></table>
+  <tr>
+    <td style="text-align: center"><img src="../USED/figure/libri2mix_max_gt_sp1.png" width="310" height="310"></td>
+    <td style="text-align: center"><img src="../USED/figure/libri2mix_max_gt_sp2.png" width="310" height="310"></td>
+  </tbody></table>
 <h4 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h4>
 <table><thead>
   <tr>
@@ -178,6 +225,10 @@
 <tr>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_spex_sp1.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_spex_sp2.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/libri2mix_max_spex_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri2mix_max_spex_sp2.png" width="310" height="310"></td>
 </tbody></table>
 <h4 id="noisy-libri2mix-min-mode">USED</h4>
 <table><thead>
@@ -190,6 +241,11 @@
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_used_sp1.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri2mix_max_used_sp2.wav" autoplay/></audio></td>
 </tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/libri2mix_max_used_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri2mix_max_used_sp2.png" width="310" height="310"></td>
+</tbody></table>
+<p><span id="2.2" name="2.2"></span></p>
 <h3 id="noisy-libri3mix-min-mode">Noisy Libri3Mix (Max Mode)</h3>
 <h4 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h4>
 <table><thead>
@@ -212,6 +268,11 @@
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_gt_sp2.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_gt_sp3.wav" autoplay/></audio></td>
 </tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_max_gt_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_max_gt_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_max_gt_sp3.png" width="310" height="310"></td>
+</tbody></table>
 <h4 id="noisy-libri2mix-min-mode">Baseline: SpEx+</h4>
 <table><thead>
   <tr>
@@ -224,6 +285,11 @@
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_spex_sp1.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_spex_sp2.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_spex_sp3.wav" autoplay/></audio></td>
+</tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_max_spex_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_max_spex_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_max_spex_sp3.png" width="310" height="310"></td>
 </tbody></table>
 <h4 id="noisy-libri2mix-min-mode">USED</h4>
 <table><thead>
@@ -238,7 +304,14 @@
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_used_sp2.wav" autoplay/></audio></td>
 <td style="text-align: center"><audio controls="controls" ><source src="../USED/audio/libri3mix_max_used_sp3.wav" autoplay/></audio></td>
 </tbody></table>
+<tr>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_max_used_sp1.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_max_used_sp2.png" width="310" height="310"></td>
+  <td style="text-align: center"><img src="../USED/figure/libri3mix_max_used_sp3.png" width="310" height="310"></td>
+</tbody></table>
+<p><span id="3" name="3"></span></p>
 <h3 id="noisy-sparselibri3mix">Noisy SparseLibri3Mix</h3>
+<p><span id="3.1" name="3.1"></span></p>
 <h4 id="overlap-ratio-0">Overlap Ratio 0</h4>
 <!-- <p><em>Were the leaders in this luckless change, though our own Baskerville, who was at work some years before them, went much on the same lines.</em></p> -->
 <h5 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h5>
@@ -303,6 +376,7 @@
   <td style="text-align: center"><img src="../USED/figure/sparse_0_used_sp2.png" width="310" height="310"></td>
   <td style="text-align: center"><img src="../USED/figure/sparse_0_used_sp3.png" width="310" height="310"></td>
 </tbody></table>
+<p><span id="3.2" name="3.2"></span></p>
 <h4 id="overlap-ratio-05">Overlap Ratio 0.4</h4>
 <h5 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h5>
 <table><thead>
@@ -366,6 +440,7 @@
   <td style="text-align: center"><img src="../USED/figure/sparse_04_used_sp2.png" width="310" height="310"></td>
   <td style="text-align: center"><img src="../USED/figure/sparse_04_used_sp3.png" width="310" height="310"></td>
 </tbody></table>
+<p><span id="3.3" name="3.3"></span></p>
 <h4 id="overlap-ratio-1">Overlap Ratio 0.8</h4>
 <h5 id="noisy-libri2mix-min-mode">Mixture Speech and Target Speeches</h5>
 <table><thead>
