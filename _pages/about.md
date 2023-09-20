@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am a PhD student at the School of Data Science, the Chinese University of Hong Kong (Shenzhen), supervised by [Prof. Haizhou Li](https://colips.org/~eleliha/). My research interests include automatic speech recognition, speech translation and speech pre-training. I have published several papers at the top international AI conferences such as ICASSP, INTERSPEECH, ACL and EMNLP. <a href='https://scholar.google.com/citations?user=eUiG0O0AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fajyy%2Fajyy.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> 
+Hi, I am a PhD student at the School of Data Science, the Chinese University of Hong Kong (Shenzhen), supervised by [Prof. Haizhou Li](https://colips.org/~eleliha/). Prior to that, I received my Bachelor Degree from Southern University of Science and Technology, supervised by [Prof. Tom Ko](https://tomkocse.github.io/). My research interests include automatic speech recognition, speech translation and speech pre-training. I have published several papers at the top international AI conferences such as ICASSP, INTERSPEECH, ACL and EMNLP. <a href='https://scholar.google.com/citations?user=eUiG0O0AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fajyy%2Fajyy.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> 
 
 
 <!-- # 🔥 News
@@ -65,7 +65,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 
 # 📜 Preprints
 - [USED: Universal Speaker Extraction and Diarization](https://arxiv.org/abs/2309.10674), **Junyi Ao**, Mehmet Sinan Yıldırım, Meng Ge, Shuai Wang, Ruijie Tao, Yanmin Qian, Liqun Deng, Longshuai Xiao, Haizhou Li, **arXiv preprint
-arXiv:2309.10674** \| [![](https://img.shields.io/website/http/ajyy.github.io/demo/USED?up_message=demo&label=USED)](https://ajyy.github.io/demo/USED/)
+arXiv:2309.10674** \| [![](https://img.shields.io/website/http/ajyy.github.io/demo/USED?up_message=demo&label=USED&up_color=blue)](https://ajyy.github.io/demo/USED/)
 
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
