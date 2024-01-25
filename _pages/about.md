@@ -24,6 +24,12 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
+
+# 📖 Educations
+- *2022.09 - now*, Ph.D., the Chinese University of Hong Kong (Shenzhen).
+- *2016.09 - 2020.06*, B.Eng, Southern University of Science and Technology.
+- *2018.09 - 2019.05*, Visiting Student, the University of Edinburgh.
+
 # 📝 Publications 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -66,11 +72,6 @@ arXiv:2309.10674** \| [![](https://img.shields.io/website/http/ajyy.github.io/de
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-
-# 📖 Educations
-- *2022.09 - now*, Ph.D., the Chinese University of Hong Kong (Shenzhen).
-- *2016.09 - 2020.06*, B.Eng, Southern University of Science and Technology.
-- *2018.09 - 2019.05*, Visiting Student, the University of Edinburgh.
 
 # 💻 Internships
 - *2021.06 - 2022.04*, [MSRA NLC group](https://www.microsoft.com/en-us/research/group/natural-language-computing/), Beijing, mentored by [Dr. Long Zhou](https://long-zhou.github.io/) and [Dr. Shujie Liu](https://www.microsoft.com/en-us/research/people/shujliu/).
