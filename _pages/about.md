@@ -70,8 +70,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 - [Improving Attention-based End-to-end ASR by Incorporating an N-gram Neural Network](https://ieeexplore.ieee.org/abstract/document/9362055), **Junyi Ao**, Tom Ko, **ISCSLP 2021**
 
 # 📜 Preprints
-- [USED: Universal Speaker Extraction and Diarization](https://arxiv.org/abs/2309.10674), **Junyi Ao**, Mehmet Sinan Yıldırım, Meng Ge, Shuai Wang, Ruijie Tao, Yanmin Qian, Liqun Deng, Longshuai Xiao, Haizhou Li, **arXiv preprint
-arXiv:2309.10674** \| [![](https://img.shields.io/website/http/ajyy.github.io/demo/USED?up_message=demo&label=USED&up_color=blue)](https://ajyy.github.io/demo/USED/)
+- [USED: Universal Speaker Extraction and Diarization](https://arxiv.org/abs/2309.10674v2), **Junyi Ao**, Mehmet Sinan Yıldırım, Ruijie Tao, Meng Ge, Shuai Wang, Yanmin Qian, Haizhou Li, **arXiv preprint arXiv:2309.10674**
 
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
