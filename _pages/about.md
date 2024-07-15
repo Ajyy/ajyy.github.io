@@ -81,7 +81,13 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-# 📚 Teaching
-- DDA3020 Machine Learning, Spring 2023
-- CSC3100 Data Structures, Fall 2022
+# 🎖 Others
+
+**Reviewer**
+- The International Conference on Acoustics, Speech, & Signal Processing (ICASSP)
+- INTERSPEECH
+
+**Teaching**
+- Leading TA, DDA3020 Machine Learning, Spring 2023
+- TA, CSC3100 Data Structures, Fall 2022
 
