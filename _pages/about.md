@@ -84,7 +84,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 # 🎖 Others
 
 **Reviewer**
-- The International Conference on Acoustics, Speech, & Signal Processing (ICASSP)
+- ICASSP
 - INTERSPEECH
 
 **Teaching**
