@@ -87,6 +87,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 # 🎖 Others
 
 **Reviewer**
+- Signal Processing Letters
 - ICASSP
 - INTERSPEECH
 
