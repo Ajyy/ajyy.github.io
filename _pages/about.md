@@ -49,7 +49,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 </div> -->
 
 - [Text-guided HuBERT: Self-Supervised Speech Pre-training via Generative Adversarial Networks](https://arxiv.org/abs/2402.15725), Duo Ma, Xianghu Yue, **Junyi Ao**, Xiaoxue Gao, Haizhou Li
-, **Signal Processing Letters**
+, **IEEE Signal Processing Letters**
 
 - [SA-WavLM: Speaker-Aware Self-Supervised Pre-training for Mixture Speech](https://arxiv.org/abs/2407.02826), Jingru Lin, Meng Ge, **Junyi Ao**, Liqun Deng, Haizhou Li
 , **INTERSPEECH 2024**
@@ -87,7 +87,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 # 🎖 Others
 
 **Reviewer**
-- Signal Processing Letters
+- IEEE Signal Processing Letters
 - ICASSP
 - INTERSPEECH
 
