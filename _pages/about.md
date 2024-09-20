@@ -31,6 +31,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 - *2018.09 - 2019.05*, Visiting Student, the University of Edinburgh.
 
 # 💻 Internships
+- *2022.03 - now*, Bytedance, mentored by [Dr. Xiaohai Tian](https://scholar.google.com/citations?user=6gc45QcAAAAJ&hl=en).
 - *2021.06 - 2022.04*, [MSRA NLC group](https://www.microsoft.com/en-us/research/group/natural-language-computing/), Beijing, mentored by [Dr. Long Zhou](https://long-zhou.github.io/) and [Dr. Shujie Liu](https://www.microsoft.com/en-us/research/people/shujliu/).
 - *2019.06 - 2019.08*, Tencent, Shenzhen.
 
@@ -87,9 +88,11 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 # 🎖 Others
 
 **Reviewer**
-- IEEE Signal Processing Letters
-- ICASSP
+- IEEE Transactions on Multimedia (TMM)
+- IEEE Signal Processing Letters (SPL)
+- The International Conference on Acoustics, Speech and Signal Processing  (ICASSP)
 - INTERSPEECH
+- National Conference on Man-Machine Speech Communication (NCMMSC)
 
 **Teaching**
 - Leading TA, DDA3020 Machine Learning, Spring 2023
