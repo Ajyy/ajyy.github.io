@@ -27,6 +27,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 
 # 📖 Educations
 - *2022.09 - now*, Ph.D., the Chinese University of Hong Kong (Shenzhen).
+- *2024.01 - now*, Visiting Student, National University of Singapore.
 - *2016.09 - 2020.06*, B.Eng, Southern University of Science and Technology.
 - *2018.09 - 2019.05*, Visiting Student, the University of Edinburgh.
 
