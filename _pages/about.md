@@ -51,8 +51,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 
 - [SD-Eval: A Benchmark Dataset for Spoken Dialogue Understanding Beyond Words](https://arxiv.org/pdf/2406.13340), **Junyi Ao**, Yuancheng Wang, Xiaohai Tian, Dekun Chen, Jun Zhang, Lu Lu, Yuxuan Wang, Haizhou Li, Zhizheng Wu, **NeurIPS 2024** \| [![](https://img.shields.io/github/stars/amphionspace/SD-Eval?style=social&label=Code+Stars)](https://github.com/amphionspace/SD-Eval)
 
-- [Text-guided HuBERT: Self-Supervised Speech Pre-training via Generative Adversarial Networks](https://arxiv.org/abs/2402.15725), Duo Ma, Xianghu Yue, **Junyi Ao**, Xiaoxue Gao, Haizhou Li
-, **IEEE Signal Processing Letters**
+- [Text-guided HuBERT: Self-Supervised Speech Pre-training via Generative Adversarial Networks](https://arxiv.org/abs/2402.15725), Duo Ma, Xianghu Yue, **Junyi Ao**, Xiaoxue Gao, Haizhou Li, **IEEE Signal Processing Letters**
 
 - [SA-WavLM: Speaker-Aware Self-Supervised Pre-training for Mixture Speech](https://arxiv.org/abs/2407.02826), Jingru Lin, Meng Ge, **Junyi Ao**, Liqun Deng, Haizhou Li
 , **INTERSPEECH 2024**
