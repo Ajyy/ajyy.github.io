@@ -51,9 +51,11 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 </div>
 </div> -->
 
+- [USED: Universal Speaker Extraction and Diarization](https://arxiv.org/abs/2309.10674v2), **Junyi Ao**, Mehmet Sinan Yıldırım, Ruijie Tao, Meng Ge, Shuai Wang, Yanmin Qian, Haizhou Li, **TASLP 2024**
+
 - [SD-Eval: A Benchmark Dataset for Spoken Dialogue Understanding Beyond Words](https://arxiv.org/pdf/2406.13340), **Junyi Ao**, Yuancheng Wang, Xiaohai Tian, Dekun Chen, Jun Zhang, Lu Lu, Yuxuan Wang, Haizhou Li, Zhizheng Wu, **NeurIPS 2024** \| [![](https://img.shields.io/github/stars/amphionspace/SD-Eval?style=social&label=Code+Stars)](https://github.com/amphionspace/SD-Eval)
 
-- [Text-guided HuBERT: Self-Supervised Speech Pre-training via Generative Adversarial Networks](https://arxiv.org/abs/2402.15725), Duo Ma, Xianghu Yue, **Junyi Ao**, Xiaoxue Gao, Haizhou Li, **IEEE Signal Processing Letters**
+- [Text-guided HuBERT: Self-Supervised Speech Pre-training via Generative Adversarial Networks](https://arxiv.org/abs/2402.15725), Duo Ma, Xianghu Yue, **Junyi Ao**, Xiaoxue Gao, Haizhou Li, **IEEE Signal Processing Letters 2024**
 
 - [SA-WavLM: Speaker-Aware Self-Supervised Pre-training for Mixture Speech](https://arxiv.org/abs/2407.02826), Jingru Lin, Meng Ge, **Junyi Ao**, Liqun Deng, Haizhou Li
 , **INTERSPEECH 2024**
@@ -78,9 +80,6 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 - [Multi-View Self-Attention Based Transformer for Speaker Recognition](https://ieeexplore.ieee.org/document/9746639/), Rui Wang, **Junyi Ao**, Long Zhou, Shujie Liu, Zhihua Wei, Tom Ko, Qing Li, Yu Zhang, **ICASSP 2022**
 
 - [Improving Attention-based End-to-end ASR by Incorporating an N-gram Neural Network](https://ieeexplore.ieee.org/abstract/document/9362055), **Junyi Ao**, Tom Ko, **ISCSLP 2021**
-
-# 📜 Preprints
-- [USED: Universal Speaker Extraction and Diarization](https://arxiv.org/abs/2309.10674v2), **Junyi Ao**, Mehmet Sinan Yıldırım, Ruijie Tao, Meng Ge, Shuai Wang, Yanmin Qian, Haizhou Li, **arXiv preprint arXiv:2309.10674**
 
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
