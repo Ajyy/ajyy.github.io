@@ -91,6 +91,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 - IEEE Transactions on Multimedia (TMM)
 - The International Conference on Learning Representations (ICLR)
 - IEEE Signal Processing Letters (SPL)
+- Computer Speech and Language
 - The International Conference on Acoustics, Speech and Signal Processing  (ICASSP)
 - INTERSPEECH
 - National Conference on Man-Machine Speech Communication (NCMMSC)
