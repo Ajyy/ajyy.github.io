@@ -92,8 +92,9 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 - The International Conference on Learning Representations (ICLR)
 - IEEE Signal Processing Letters (SPL)
 - Computer Speech and Language
-- The International Conference on Acoustics, Speech and Signal Processing  (ICASSP)
+- The International Conference on Acoustics, Speech and Signal Processing (ICASSP)
 - INTERSPEECH
+- International Joint Conference on Neural Networks (IJCNN)
 - National Conference on Man-Machine Speech Communication (NCMMSC)
 
 **Teaching**
