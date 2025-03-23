@@ -81,6 +81,10 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 
 - [Improving Attention-based End-to-end ASR by Incorporating an N-gram Neural Network](https://ieeexplore.ieee.org/abstract/document/9362055), **Junyi Ao**, Tom Ko, **ISCSLP 2021**
 
+# 📜 Preprints
+- [Solla: Towards a Speech-Oriented LLM That Hears Acoustic Context](https://arxiv.org/abs/2503.15338), **Junyi Ao**, Dekun Chen, Xiaohai Tian, Wenjie Feng, Jun Zhang, Lu Lu, Yuxuan Wang, Haizhou Li, Zhizheng Wu, **arXiv preprint arXiv:2503.15338**
+- [Overview of the Amphion Toolkit (v0.2)](https://arxiv.org/abs/2501.15442), Jiaqi Li, Xueyao Zhang, Yuancheng Wang, Haorui He, Chaoren Wang, Li Wang, Huan Liao, **Junyi Ao**, Zeyu Xie, Yiqiao Huang, Junan Zhang, Zhizheng Wu, **arXiv preprint arXiv:2501.15442**
+
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
@@ -90,6 +94,7 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 **Reviewer**
 - IEEE Transactions on Multimedia (TMM)
 - The International Conference on Learning Representations (ICLR)
+- The Annual Meeting of the Association for Computational Linguistics (ACL)
 - IEEE Signal Processing Letters (SPL)
 - Computer Speech and Language
 - The International Conference on Acoustics, Speech and Signal Processing (ICASSP)
