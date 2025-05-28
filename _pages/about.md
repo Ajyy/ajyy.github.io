@@ -27,12 +27,12 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 
 # 📖 Educations
 - *2022.09 - now*, Ph.D., the Chinese University of Hong Kong, Shenzhen.
-- *2024.01 - now*, Visiting Student, National University of Singapore.
+- *2024.01 - 2024.12*, Visiting Student, National University of Singapore.
 - *2016.09 - 2020.06*, B.Eng, Southern University of Science and Technology.
 - *2018.09 - 2019.05*, Visiting Student, the University of Edinburgh.
 
 # 💻 Internships
-- *2025.05 - present*, Research Scientist Intern, Meta GenAI.
+- *2025.05 - now*, Research Scientist Intern, Meta GenAI.
 - *2024.03 - 2025.05*, Research Intern, Bytedance, Mentored by [Prof. Zhizheng Wu](https://drwuz.com/) and [Dr. Xiaohai Tian](https://scholar.google.com/citations?user=6gc45QcAAAAJ&hl=en).
 - *2022.06 - 2022.12*, Research Intern, Bytedance, Mentored by [Prof. Tom Ko](https://tomkocse.github.io/).
 - *2021.06 - 2022.04*, Research Intern, [MSRA NLC group](https://www.microsoft.com/en-us/research/group/natural-language-computing/), Beijing, Mentored by [Dr. Long Zhou](https://long-zhou.github.io/) and [Dr. Shujie Liu](https://www.microsoft.com/en-us/research/people/shujliu/).
