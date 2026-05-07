@@ -17,84 +17,78 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am a PhD student at the School of Data Science, the Chinese University of Hong Kong, Shenzhen, supervised by [Prof. Haizhou Li](https://colips.org/~eleliha/). Prior to that, I received my bachelor's degree from the Southern University of Science and Technology, supervised by [Prof. Tom Ko](https://tomkocse.github.io/). My research interests include automatic speech recognition, speech pre-training and large language models. I have published several papers at the top international AI conferences and journals such as TASLP, NeurIPS, ACL, and ICASSP. <a href='https://scholar.google.com/citations?user=eUiG0O0AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fajyy%2Fajyy.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> 
+Hi, I am a PhD student at the School of Data Science, The Chinese University of Hong Kong, Shenzhen, supervised by [Prof. Haizhou Li](https://colips.org/~eleliha/). Prior to that, I received my bachelor's degree from Southern University of Science and Technology, supervised by [Prof. Tom Ko](https://tomkocse.github.io/). My research interests include automatic speech recognition, speech pre-training and spoken language models. I have published several papers at top international AI conferences and journals such as TASLP, NeurIPS, ICLR, ACL, EMNLP, and ICASSP. <a href='https://scholar.google.com/citations?user=eUiG0O0AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fajyy%2Fajyy.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
-<!-- # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-
-
-# 📖 Educations
+# 📖 Education
 - *2022.09 - now*, Ph.D., the Chinese University of Hong Kong, Shenzhen.
 - *2024.01 - 2024.12*, Visiting Student, National University of Singapore.
 - *2016.09 - 2020.06*, B.Eng, Southern University of Science and Technology.
 - *2018.09 - 2019.05*, Visiting Student, the University of Edinburgh.
 
 # 💻 Internships
-- *2025.05 - now*, Research Scientist Intern, Meta GenAI.
-- *2024.03 - 2025.05*, Research Intern, Bytedance, Mentored by [Prof. Zhizheng Wu](https://drwuz.com/) and [Dr. Xiaohai Tian](https://scholar.google.com/citations?user=6gc45QcAAAAJ&hl=en).
-- *2022.06 - 2022.12*, Research Intern, Bytedance, Mentored by [Prof. Tom Ko](https://tomkocse.github.io/).
+- *2025.05 - 2025.11*, Research Scientist Intern, Meta GenAI.
+- *2024.03 - 2025.05*, Research Intern, ByteDance, Mentored by [Prof. Zhizheng Wu](https://drwuz.com/) and [Dr. Xiaohai Tian](https://scholar.google.com/citations?user=6gc45QcAAAAJ&hl=en).
+- *2022.06 - 2022.12*, Research Intern, ByteDance, Mentored by [Prof. Tom Ko](https://tomkocse.github.io/).
 - *2021.06 - 2022.04*, Research Intern, [MSRA NLC group](https://www.microsoft.com/en-us/research/group/natural-language-computing/), Beijing, Mentored by [Dr. Long Zhou](https://long-zhou.github.io/) and [Dr. Shujie Liu](https://www.microsoft.com/en-us/research/people/shujliu/).
 - *2019.06 - 2019.08*, Machine Learning Intern, Tencent, Shenzhen.
 
 # 📝 Publications 
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- [A Two-Stage Self-Supervised Speech Representation Learning for Acoustic, Phonetic and Semantic Modeling](https://ieeexplore.ieee.org/document/11447409/), Jingru Lin, **Junyi Ao**, Meng Ge, Mengling Feng, Haizhou Li, **IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2026**
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun -->
+- [Scaling Speech Tokenizers with Diffusion Autoencoders](https://arxiv.org/abs/2602.06602), Yuancheng Wang, Zhenyu Tang, Yun Wang, Arthur Hinsvark, Yingru Liu, Yinghao Li, Kainan Peng, **Junyi Ao**, Mingbo Ma, Mike Seltzer, Qing He, Xubo Liu, **ICLR 2026**
 
-<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div> -->
+- [EchoMind: An Interrelated Multi-Level Benchmark for Evaluating Empathetic Speech Language Models](https://arxiv.org/abs/2510.22758), Li Zhou, Lutong Yu, You Lyu, Yihang Lin, Zefeng Zhao, **Junyi Ao**, Yuhao Zhang, Benyou Wang, Haizhou Li, **ICLR 2026**
 
-- [USED: Universal Speaker Extraction and Diarization](https://arxiv.org/abs/2309.10674v2), **Junyi Ao**, Mehmet Sinan Yıldırım, Ruijie Tao, Meng Ge, Shuai Wang, Yanmin Qian, Haizhou Li, **TASLP 2024**
+- [USED: Universal Speaker Extraction and Diarization](https://arxiv.org/abs/2309.10674v2), **Junyi Ao**, Mehmet Sinan Yıldırım, Ruijie Tao, Meng Ge, Shuai Wang, Yanmin Qian, Haizhou Li, **IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2025**
 
-- [SD-Eval: A Benchmark Dataset for Spoken Dialogue Understanding Beyond Words](https://arxiv.org/pdf/2406.13340), **Junyi Ao**, Yuancheng Wang, Xiaohai Tian, Dekun Chen, Jun Zhang, Lu Lu, Yuxuan Wang, Haizhou Li, Zhizheng Wu, **NeurIPS 2024** \| [![](https://img.shields.io/github/stars/amphionspace/SD-Eval?style=social&label=Code+Stars)](https://github.com/amphionspace/SD-Eval)
+- [Leveraging Language Information for Target Language Extraction](https://arxiv.org/abs/2511.01652), Mehmet Sinan Yıldırım, Ruijie Tao, Wupeng Wang, **Junyi Ao**, Haizhou Li, **APSIPA ASC 2025**
 
-- [Text-guided HuBERT: Self-Supervised Speech Pre-training via Generative Adversarial Networks](https://arxiv.org/abs/2402.15725), Duo Ma, Xianghu Yue, **Junyi Ao**, Xiaoxue Gao, Haizhou Li, **IEEE Signal Processing Letters 2024**
+- [SD-Eval: A Benchmark Dataset for Spoken Dialogue Understanding Beyond Words](https://arxiv.org/pdf/2406.13340), **Junyi Ao**, Yuancheng Wang, Xiaohai Tian, Dekun Chen, Jun Zhang, Lu Lu, Yuxuan Wang, Haizhou Li, Zhizheng Wu, **NeurIPS Datasets and Benchmarks Track 2024** \| [![](https://img.shields.io/github/stars/amphionspace/SD-Eval?style=social&label=Code+Stars)](https://github.com/amphionspace/SD-Eval)
 
-- [SA-WavLM: Speaker-Aware Self-Supervised Pre-training for Mixture Speech](https://arxiv.org/abs/2407.02826), Jingru Lin, Meng Ge, **Junyi Ao**, Liqun Deng, Haizhou Li
-, **INTERSPEECH 2024**
+- [SA-WavLM: Speaker-Aware Self-Supervised Pre-Training for Mixture Speech](https://arxiv.org/abs/2407.02826), Jingru Lin, Meng Ge, **Junyi Ao**, Liqun Deng, Haizhou Li, **INTERSPEECH 2024**
 
-- [CoBERT: Self-Supervised Speech Representation Learning Through Code Representation Learning](https://arxiv.org/abs/2210.04062), Chutong Meng, **Junyi Ao**, Tom Ko, Mingxuan Wang, Haizhou Li, **INTERSPEECH 2023** \| [![](https://img.shields.io/github/stars/mct10/CoBERT?style=social&label=Code+Stars)](https://github.com/mct10/CoBERT)
+- [Text-Guided HuBERT: Self-Supervised Speech Pre-Training via Generative Adversarial Networks](https://arxiv.org/abs/2402.15725), Duo Ma, Xianghu Yue, **Junyi Ao**, Xiaoxue Gao, Haizhou Li, **IEEE Signal Processing Letters, 2024**
+
+- [CoBERT: Self-Supervised Speech Representation Learning Through Code Representation Learning](https://arxiv.org/abs/2210.04062), Chutong Meng*, **Junyi Ao***, Tom Ko, Mingxuan Wang, Haizhou Li, **INTERSPEECH 2023** \| [![](https://img.shields.io/github/stars/mct10/CoBERT?style=social&label=Code+Stars)](https://github.com/mct10/CoBERT) (* Equal contribution)
+
+- [Token2vec: A Joint Self-Supervised Pre-Training Framework Using Unpaired Speech and Text](https://arxiv.org/abs/2210.16755), Xianghu Yue, **Junyi Ao**, Xiaoxue Gao, Haizhou Li, **ICASSP 2023**
 
 - [Self-Supervised Acoustic Word Embedding Learning via Correspondence Transformer Encoder](https://arxiv.org/abs/2307.09871), Jingru Lin, Xianghu Yue, **Junyi Ao**, Haizhou Li, **INTERSPEECH 2023**
-
-- [token2vec: A Joint Self-Supervised Pre-training Framework Using Unpaired Speech and Text](https://arxiv.org/abs/2210.16755), Xianghu Yue, **Junyi Ao**, Xiaoxue Gao, Haizhou Li, **ICASSP 2023**
-
 
 - [Pre-Training Transformer Decoder for End-to-End ASR Model with Unpaired Speech Data](https://arxiv.org/abs/2203.17113), **Junyi Ao**, Ziqiang Zhang, Long Zhou, Shujie Liu, Haizhou Li, Tom Ko, Lirong Dai, Jinyu Li, Yao Qian, Furu Wei, **INTERSPEECH 2022** \| [![](https://img.shields.io/github/stars/microsoft/SpeechT5?style=social&label=Code+Stars)](https://github.com/microsoft/SpeechT5/tree/main/Speech2C)
 
 - [SpeechT5: Unified-Modal Encoder-Decoder Pre-Training for Spoken Language Processing](https://aclanthology.org/2022.acl-long.393/), **Junyi Ao**, Rui Wang, Long Zhou, Chengyi Wang, Shuo Ren, Yu Wu, Shujie Liu, Tom Ko, Qing Li, Yu Zhang, Zhihua Wei, Yao Qian, Jinyu Li, Furu Wei, **ACL 2022** \| [![](https://img.shields.io/github/stars/microsoft/SpeechT5?style=social&label=Code+Stars)](https://github.com/microsoft/SpeechT5)
 
-- [SpeechUT: Bridging Speech and Text with Hidden-Unit for Encoder-Decoder Based Speech-Text Pre-training](https://arxiv.org/abs/2210.03730), Ziqiang Zhang, Long Zhou, **Junyi Ao**, Shujie Liu, Lirong Dai, Jinyu Li, Furu Wei, **EMNLP 2022** \| [![](https://img.shields.io/github/stars/microsoft/SpeechT5?style=social&label=Code+Stars)](https://github.com/microsoft/SpeechT5/tree/main/SpeechUT)
+- [The YiTrans Speech Translation System for the IWSLT 2022 Offline Shared Task](https://aclanthology.org/2022.iwslt-1.11/), Ziqiang Zhang, **Junyi Ao**, **Proceedings of the 19th International Conference on Spoken Language Translation, 2022**
+
+- [SpeechUT: Bridging Speech and Text with Hidden-Unit for Encoder-Decoder Based Speech-Text Pre-Training](https://arxiv.org/abs/2210.03730), Ziqiang Zhang, Long Zhou, **Junyi Ao**, Shujie Liu, Lirong Dai, Jinyu Li, Furu Wei, **EMNLP 2022** \| [![](https://img.shields.io/github/stars/microsoft/SpeechT5?style=social&label=Code+Stars)](https://github.com/microsoft/SpeechT5/tree/main/SpeechUT)
 
 - [LightHuBERT: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT](https://arxiv.org/abs/2203.15610), Rui Wang, Qibing Bai, **Junyi Ao**, Long Zhou, Zhixiang Xiong, Zhihua Wei, Yu Zhang, Tom Ko, Haizhou Li, **INTERSPEECH 2022** \| [![](https://img.shields.io/github/stars/mechanicalsea/lighthubert?style=social&label=Code+Stars)](https://github.com/mechanicalsea/lighthubert)
-
-- [The YiTrans Speech Translation System for IWSLT 2022 Offline Shared Task](https://aclanthology.org/2022.iwslt-1.11/), Ziqiang Zhang, **Junyi Ao**, Long Zhou, Shujie Liu, Furu Wei, Jinyu Li, **ACL@IWSLT 2022** \| [![](https://img.shields.io/github/stars/microsoft/SpeechT5?style=social&label=Code+Stars)](https://github.com/microsoft/SpeechT5/tree/main/YiTrans)
 
 - [Multi-View Self-Attention Based Transformer for Speaker Recognition](https://ieeexplore.ieee.org/document/9746639/), Rui Wang, **Junyi Ao**, Long Zhou, Shujie Liu, Zhihua Wei, Tom Ko, Qing Li, Yu Zhang, **ICASSP 2022**
 
 - [Improving Attention-based End-to-end ASR by Incorporating an N-gram Neural Network](https://ieeexplore.ieee.org/abstract/document/9362055), **Junyi Ao**, Tom Ko, **ISCSLP 2021**
 
 # 📜 Preprints
-- [Solla: Towards a Speech-Oriented LLM That Hears Acoustic Context](https://arxiv.org/abs/2503.15338), **Junyi Ao**, Dekun Chen, Xiaohai Tian, Wenjie Feng, Jun Zhang, Lu Lu, Yuxuan Wang, Haizhou Li, Zhizheng Wu, **arXiv preprint arXiv:2503.15338**
-- [Overview of the Amphion Toolkit (v0.2)](https://arxiv.org/abs/2501.15442), Jiaqi Li, Xueyao Zhang, Yuancheng Wang, Haorui He, Chaoren Wang, Li Wang, Huan Liao, **Junyi Ao**, Zeyu Xie, Yiqiao Huang, Junan Zhang, Zhizheng Wu, **arXiv preprint arXiv:2501.15442**
 
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- [Audio Deepfake Verification](https://arxiv.org/abs/2509.08476), Li Wang, **Junyi Ao**, Linyong Gan, Yuancheng Wang, Xueyao Zhang, Zhizheng Wu, **arXiv preprint arXiv:2509.08476, 2025**
+
+- [Solla: Towards a Speech-Oriented LLM That Hears Acoustic Context](https://arxiv.org/abs/2503.15338), **Junyi Ao**, Dekun Chen, Xiaohai Tian, Wenjie Feng, Jun Zhang, Lu Lu, Yuxuan Wang, Haizhou Li, Zhizheng Wu, **arXiv preprint arXiv:2503.15338, 2025**
+
+- [Overview of the Amphion Toolkit (v0.2)](https://arxiv.org/abs/2501.15442), Jiaqi Li, Xueyao Zhang, Yuancheng Wang, Haorui He, Chaoren Wang, Li Wang, Huan Liao, **Junyi Ao**, Zeyu Xie, Yiqiao Huang, et al., **arXiv preprint arXiv:2501.15442, 2025**
+
+- [The NUS-HLT System for the ICASSP 2024 ICMC-ASR Grand Challenge](https://arxiv.org/abs/2312.16002), Meng Ge, Yizhou Peng, Yidi Jiang, Jingru Lin, **Junyi Ao**, Mehmet Sinan Yildirim, Shuai Wang, Haizhou Li, Mengling Feng, **arXiv preprint arXiv:2312.16002, 2023**
+
 
 # 🎖 Others
 
 **Reviewer**
 - IEEE Transactions on Multimedia (TMM)
 - The International Conference on Learning Representations (ICLR)
+- The Conference on Neural Information Processing Systems (NeurIPS)
 - The Annual Meeting of the Association for Computational Linguistics (ACL)
 - IEEE Signal Processing Letters (SPL)
 - Computer Speech and Language
@@ -106,4 +100,3 @@ Hi, I am a PhD student at the School of Data Science, the Chinese University of 
 **Teaching**
 - Leading TA, DDA3020 Machine Learning, Spring 2023
 - TA, CSC3100 Data Structures, Fall 2022
-
